@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 
-const NBSP = '\u00A0'
-
 function App() {
   return (
     <div className="App">
@@ -22,6 +20,8 @@ function App() {
                 </div>
                 <div className="ubuntu_regular_secondary">
                     preparing
+                    <br/>
+                    iremmadran.github.io/cv
                 </div>
                 <div className="ubuntu_medium_main">
                     contacts
