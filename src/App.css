@@ -29,7 +29,7 @@
   justify-content: center;
   background-color: whitesmoke;
   height: 297mm;
-  width: 40%;
+  width: 32%;
 
 }
 .right_kol {
@@ -38,7 +38,7 @@
   justify-content: center;
   background-color: white;
   height: 297mm;
-  width: 60%;
+  width: 68%;
 }
 .ubuntu_bold, .irem_madran {
   font-family: "Ubuntu", sans-serif;
@@ -71,14 +71,14 @@
 }
 .irem_madran {
   margin-left:30px;
+  margin-right:20px;
   color: #212F3D;
-  font-size: 43px;
+  font-size: 45px;
 }
 .job_title {
   margin-left:30px;
-  margin-top: 7px;
   color: #F1C40F;
-  font-size: 25px;
+  font-size: 23px;
 
 }
 .port {
