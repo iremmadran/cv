@@ -197,7 +197,7 @@ function App() {
                             </li>
                             <li style={{marginTop: 3}}>Modern Furniture - ‘Scissors Hands’ Poster Design</li>
                             <li style={{marginTop: 3}}>Feza van der Weele House & Office Design</li>
-                            <li style={{marginTop: 3}}>Seating Element- ‘Mystic’ from song to furniture</li>
+                            <li style={{marginTop: 3}}>Seating Element - ‘Mystic’ from song to furniture</li>
                             <li style={{marginTop: 3}}>Orange County Choppers (OCC) Showroom</li>
                         </ul>
                     </div>
