@@ -20,8 +20,6 @@ function App() {
                         portfolio
                     </div>
                     <div className="ubuntu_regular_secondary" style={{lineHeight: 1.3}}>
-                        preparing
-                        <br/>
                         iremmadran.github.io/cv
                     </div>
                     <div className="ubuntu_medium_main">
@@ -45,33 +43,40 @@ function App() {
                         tools
                     </div>
                     <div className="ubuntu_regular_secondary" style={{lineHeight: 1.3}}>
+                        HTML5
+                        <br/>
+                        CSS3
+                        <br/>
+                        React
+                        <br/>
+                        Flutter
+                        <br/>
+                        Figma
+                        <br/>
                         Adobe Illustrator
                         <br/>
                         Adobe Photoshop
                         <br/>
                         Sketchup
-                        <br/>
-                        Basic HTML+CSS
-                        <br/>
-                        React
-                        <br/>
-                        Figma
-                        <br/>
-                        Microsoft Office
+
                     </div>
                     <div className="ubuntu_medium_main">
                         skills
                     </div>
                     <div className="ubuntu_regular_secondary" style={{lineHeight: 1.3}}>
-                        Web Design
-                        <br/> Visual Design
-                        <br/> User Experience (UX)
-                        <br/> Responsive & Accessibility Design
-                        <br/> Usability Testing
+                        Interaction Design
+                        <br/> UI Design
+                        <br/> UX Design
+                        <br/> Accessibility Design
+                        <br/> Responsive Design
+                        <br/> Marketing Research
+                        <br/> User Research
                         <br/> Prototyping & Wireframing
+                        <br/> Web Design
+                        <br/> Usability Testing
+                        <br/> Storyboard
                         <br/> Digital Art & Drawings
                         <br/> Presentation
-                        <br/> Marketing & User Research
                         <br/> Turkish
                         <br/> English
                     </div>
@@ -84,7 +89,7 @@ function App() {
                         ux/ui designer, intern
                     </div>
                     <div className="ubuntu_regular_secondary" style={{fontSize: 10, color: "darkgray", marginTop: 2}}>
-                        Focusbox, UK (2022 - 2024)
+                        Focusbox, UK (2022 - 2025)
                     </div>
                     <div className="ubuntu_regular_secondary">
                        <div style={{lineHeight: 1.3}}>
