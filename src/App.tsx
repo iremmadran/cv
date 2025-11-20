@@ -4,7 +4,8 @@ import {FaStar} from "react-icons/fa6";
 
 function App() {
     return (
-        <div className="App">
+        <div style={{display: 'flex',justifyContent: 'center', paddingTop: '40px'
+        }}>
             <div className="a4">
                 <div className="left_kol">
                     <div className="irem_madran">
@@ -21,6 +22,15 @@ function App() {
                     </div>
                     <div className="ubuntu_regular_secondary" style={{lineHeight: 1.3}}>
                         iremmadran.github.io/cv
+                        <br/>
+                        <a
+                            href="https://www.figma.com/proto/IlOyUil6uzaQSbqDLatdZK/Irem-Madran-Portfolio?node-id=43-3&p=f&t=wMcjFM9uYhcyppzI-1&scaling=scale-down&content-scaling=fixed&page-id=43%3A2&starting-point-node-id=43%3A3"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="link_button"
+                        >
+                            View Figma Portfolio
+                        </a>
                     </div>
                     <div className="ubuntu_medium_main">
                         contacts
@@ -35,7 +45,7 @@ function App() {
                     </div>
                     <div className="ubuntu_regular_secondary" style={{paddingRight: 25, lineHeight: 1.3}}>
                         I have been working as a creative, detailed and responsible interior designer
-                        for the last 7 years. With the advancement of technology, I decided to take a
+                        for the last 8 years. With the advancement of technology, I decided to take a
                         new career path in UI/UX design. I believe my experience will support me every
                         step of the way.
                     </div>
@@ -85,8 +95,8 @@ function App() {
                     <div className="main_title">
                         UX/UI Experience
                     </div>
-                    <div className="ubuntu_medium_main" style={{fontSize: 16, marginTop: 4}}>
-                        ux/ui designer, intern
+                    <div className="ubuntu_medium_main" style={{fontSize: 16, marginTop: 3}}>
+                        junior ux/ui designer, part-time
                     </div>
                     <div className="ubuntu_regular_secondary" style={{fontSize: 10, color: "darkgray", marginTop: 2}}>
                         Focusbox, UK (2022 - 2025)
@@ -96,14 +106,11 @@ function App() {
                            <FaStar style={{fontSize:9}}/> Created and developed a user-centric Pomodoro app for Android
                            and iOS, enhancing productivity through an intuitive interface and streamlined user experience.
                        </div>
-                        <ul style={{marginTop: 2, columns: 3}}>
-                            <li>Figma</li>
-                            <li style={{marginTop: 3}}>HTML</li>
-                            <li style={{marginTop: 3}}>CSS</li>
-                            <li style={{marginTop: 3}}>React</li>
-                        </ul>
+                        <div style={{fontSize: 10, marginTop: 4, marginBottom: 4, textAlign: 'center'}}>
+                            Figma | CSS | HTML 5 | React
+                        </div>
                     </div>
-                    <div className="main_title">
+                    <div className="main_title" style={{ marginTop: 8}}>
                         Design Experience
                     </div>
                     <div className="ubuntu_medium_main" style={{fontSize: 16, marginTop: 4}}>
@@ -123,15 +130,9 @@ function App() {
                                 client communication and project alignment.
                             </div>
                         </div>
-                        <ul style={{marginTop: 2, columns: 3}}>
-                            <li>AutoCAD</li>
-                            <li style={{marginTop: 3}}>Archicad</li>
-                            <li style={{marginTop: 3}}>Sketchup</li>
-                            <li style={{marginTop: 3}}>Lumion</li>
-                            <li style={{marginTop: 3}}>Adobe Photoshop</li>
-                            <li style={{marginTop: 3}}>Adobe Illustrator</li>
-                            <li style={{marginTop: 3}}>Microsoft Office</li>
-                        </ul>
+                        <div style={{fontSize: 10, marginTop: 4, marginBottom: 4, textAlign: 'center'}}>
+                            Adobe Photoshop | Adobe Illustrator | AutoCAD | Sketchup | ArchiCAD | Lumion | Microsoft Office
+                        </div>
                     </div>
                     <div className="ubuntu_medium_main" style={{fontSize: 16, marginTop: 1}}>
                         interior architect
@@ -152,15 +153,9 @@ function App() {
                             <div><FaStar style={{fontSize:9}}/> Created technical drawings, modelling and rendering, and
                             documentation, supporting project execution.</div>
                         </div>
-                        <ul style={{marginTop: 2, columns: 3}}>
-                            <li>AutoCAD</li>
-                            <li style={{marginTop: 3}}>Archicad</li>
-                            <li style={{marginTop: 3}}>Sketchup</li>
-                            <li style={{marginTop: 3}}>Lumion</li>
-                            <li style={{marginTop: 3}}>Adobe Photoshop</li>
-                            <li style={{marginTop: 3}}>Adobe Illustrator</li>
-                            <li style={{marginTop: 3}}>Microsoft Office</li>
-                        </ul>
+                        <div style={{fontSize: 10, marginTop: 4, marginBottom: 4, textAlign: 'center'}}>
+                            Adobe Photoshop | Adobe Illustrator | AutoCAD | Sketchup | ArchiCAD | Lumion | Microsoft Office
+                        </div>
                     </div>
                     <div className="ubuntu_medium_main" style={{fontSize: 16, marginTop: 1}}>
                         interior architect
@@ -179,45 +174,30 @@ function App() {
                         <div><FaStar style={{fontSize:9}}/> Prepared 2D & 3D visualization, realistic renders, mood
                         boards, and presentation sheets for clients. </div>
                         </div>
-                        <ul style={{marginTop: 2, columns: 3}}>
-                            <li>AutoCAD</li>
-                            <li style={{marginTop: 3}}>Archicad</li>
-                            <li style={{marginTop: 3}}>Adobe Photoshop</li>
-                            <li style={{marginTop: 3}}>Microsoft Office</li>
-                        </ul>
+                        <div style={{fontSize: 10, marginTop: 4, marginBottom: 4, textAlign: 'center'}}>
+                            Adobe Photoshop |AutoCAD | ArchiCAD | Microsoft Office
+                        </div>
                     </div>
                     <div className="main_title">
-                        Exhibitions
+                        Other Experience
                     </div>
-                    <div className="ubuntu_medium_main" style={{fontSize: 16, marginTop: 1}}>
-                        university exhibitions
-                    </div>
-                    <div className="ubuntu_regular_secondary" style={{fontSize: 10, color: "darkgray", marginTop: 2}}>
-                        Turkey (2015 - 2016)
-                    </div>
-                    <div className="ubuntu_regular_secondary">
-                        <ul style={{marginTop: 2}}>
-                            <li>Restoration - Traditional Trabzon Handcraft Workshop</li>
-                            <li style={{marginTop: 3}}>Modern Furniture - ‘Scissors Hands’ Surface and Furniture Design
-                            </li>
-                            <li style={{marginTop: 3}}>Modern Furniture - ‘Scissors Hands’ Poster Design</li>
-                            <li style={{marginTop: 3}}>Feza van der Weele House & Office Design</li>
-                            <li style={{marginTop: 3}}>Seating Element - ‘Mystic’ from song to furniture</li>
-                            <li style={{marginTop: 3}}>Orange County Choppers (OCC) Showroom</li>
-                        </ul>
-                    </div>
-                    <div className="ubuntu_medium_main" style={{fontSize: 16, marginTop: 1}}>
-                        1st national interior design symposium
+                    <div className="ubuntu_medium_main" style={{fontSize: 16, marginTop: 3}}>
+                        team leader
                     </div>
                     <div className="ubuntu_regular_secondary" style={{fontSize: 10, color: "darkgray", marginTop: 2}}>
-                        Turkey (Oct 2015)
+                        ITSU, UK (2023 - present)
                     </div>
                     <div className="ubuntu_regular_secondary">
-                        <ul style={{marginTop: 2}}>
-                            <li>Feza van der Weele House & Office Design</li>
-                        </ul>
+                        <div style={{lineHeight: 1.3}}>
+                            <div><FaStar style={{fontSize:9}}/> Lead and manage a cross-functional team of 5-6 professionals
+                                in a dynamic, fast-paced environment.</div>
+                            <div><FaStar style={{fontSize:9}}/> Excel at rapid decision-making and swift adaptation to
+                                unexpected changes while maintaining high team motivation and performance. </div>
+                            <div><FaStar style={{fontSize:9}}/> Effectively balance multiple concurrent priorities and projects,
+                                providing clear strategic direction and mentorship to drive both team and organizational success.</div>
+                        </div>
                     </div>
-                    <div className="main_title">
+                    <div className="main_title" style={{ marginTop: 8}} >
                         Education
                     </div>
                     <div className="ubuntu_medium_main" style={{fontSize: 16, marginTop: 4}}>
@@ -229,9 +209,18 @@ function App() {
                     <div className="ubuntu_regular_secondary">
                         Bachelor of Interior Architect
                     </div>
+                    <div className="ubuntu_medium_main" style={{fontSize: 16, marginTop: 4}}>
+                        coursera
+                    </div>
+                    <div className="ubuntu_regular_secondary" style={{fontSize: 10, color: "darkgray", marginTop: 2}}>
+                        UK (Sep 5, 2025)
+                    </div>
+                    <div className="ubuntu_regular_secondary">
+                        Google UX Design
+                    </div>
+                </div>
                 </div>
             </div>
-        </div>
     );
 }
 
